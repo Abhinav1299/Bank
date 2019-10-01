@@ -47,7 +47,6 @@ int withdrawl(FILE *fptr3,bank s4)
 
                 printf("\n\n\tProcessing your transaction please wait...");
                 printf("\n\n\tTransaction successful ....");
-                printf("Thank you for using our services\n\n\n");
                 printf("Please collect your amount Rs %ld\n",l);
                 printf("Press Y to see your left balance and N to skip\t");
                 fflush(stdin);
