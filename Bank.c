@@ -30,8 +30,7 @@ int pin()
     a = 1000+rand()%9999;
     return a;
 }
-//void withdrawl();
-//void deposit();
+
 
 int withdrawl(FILE *fptr3,bank s4)
 {
@@ -39,12 +38,7 @@ int withdrawl(FILE *fptr3,bank s4)
     char a;
     long int m,l;
     system("cls");
-    //printf("\n1.Saving Account");
-    //printf("\n2.Current Account\n\n");
-    //printf("......Enter 1 for saving account =  ");
-    //scanf("%d",&n);
-    //if(n==1)
-    //{
+    
                 printf("Enter amount =  ");
                 scanf("%ld",&l);
                 s4.balance=s4.balance-l;
@@ -286,10 +280,7 @@ int delete_()
             fwrite(&s,sizeof(s),1,fptr1);
         }
 
-        //else
-       // {
-
-       // }
+        
     }
     fclose(fptr);
     fclose(fptr1);
