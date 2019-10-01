@@ -273,7 +273,6 @@ int delete_()
     while(!feof(fptr))
     {
         fread(&s,sizeof(s),1,fptr);
-        //printf("%d %s",s.pin,s.user_name);
 
         if((s.pin!=p)&&(strcmp(s.user_name,u_name)!=0))
         {
@@ -495,7 +494,7 @@ int main()
     system("cls");
     printf("\n\n\n\n            *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 
-    printf("\n       \t    *       Welcome to Bank of Gujarat\t          *\n");
+    printf("\n       \t    *       Welcome to HFDC Bank \t          *\n");
     printf("            *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n\n");
     printf("            \t  ( MOST TRUSTED BANK OF GUJARAT )");
     printf("\n\n\n\n     press 1 key to continue......");
