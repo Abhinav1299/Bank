@@ -24,10 +24,10 @@ struct bank
 
 int pin()
 {
-    int pin;
+    int b;
     srand(time(NULL));
-    pin = 1000+rand()%9999;
-    return pin;
+    b = 1000+rand()%9999;
+    return b;
 }
 
 
