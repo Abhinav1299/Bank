@@ -24,7 +24,8 @@ struct bank
 
 int pin()
 {
-    int b;
+    //this function will generate a random pin which is a four digit number.
+    int b,a=0;
     srand(time(NULL));
     b = 1000+rand()%9999;
     return b;
@@ -318,7 +319,6 @@ int inside(FILE *fptr1,bank s1)
     int n,y;
     char c;
     t:
-    system("cls");
     printf("\n\n\t\t\tWelcome account number - %ld\n",s.acc_num);
     printf("\n\tChoose from the following services -  ");
     printf("\n\n   1. Update information");
@@ -404,11 +404,11 @@ int inside(FILE *fptr1,bank s1)
 
 long int acc_no()
 {
-    int b;
+    int c;
     time_t t;
     srand(time(NULL));
-    b=10000+rand()%99999;
-    return b;
+    c=10000+rand()%99999;
+    return c;
 }
 
 void input()
