@@ -95,7 +95,7 @@ int balance(FILE *fptr4,bank s5)
     char b;
     printf("Press Y to see your Account balance and N to skip =  ");
     scanf("%c",&b);
-    if(a=='Y'||a=='y')
+    if(b=='Y'||b=='y')
     {
     printf("\n\n\t\t Current balance =  %d",s5.balance);
     }
