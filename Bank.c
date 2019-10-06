@@ -319,6 +319,7 @@ int inside(FILE *fptr1,bank s1)
     int n,y;
     char c;
     t:
+    system("cls");
     printf("\n\n\t\t\tWelcome account number - %ld\n",s.acc_num);
     printf("\n\tChoose from the following services -  ");
     printf("\n\n   1. Update information");
