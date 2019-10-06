@@ -92,9 +92,9 @@ int balance(FILE *fptr4,bank s5)
 {
     fflush(stdin);
     system("cls");
-    char a;
+    char b;
     printf("Press Y to see your Account balance and N to skip =  ");
-    scanf("%c",&a);
+    scanf("%c",&b);
     if(a=='Y'||a=='y')
     {
     printf("\n\n\t\t Current balance =  %d",s5.balance);
@@ -487,14 +487,14 @@ void login()
 
 int main()
 {
-    int a,b,c;
+    int a,b,c,d=0;
     x:
     system("cls");
     printf("\n\n\n\n            *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 
-    printf("\n       \t    *       Welcome to HFDC Bank \t          *\n");
+    printf("\n       \t    *       Welcome to Lena Dena Bank \t          *\n");
     printf("            *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n\n");
-    printf("            \t  ( MOST TRUSTED BANK OF GUJARAT )");
+    printf("            \t  ( MOST TRUSTED BANK OF INDIA )");
     printf("\n\n\n\n     press 1 key to continue......");
     //getch();
     scanf("%d",&b);
@@ -509,9 +509,9 @@ int main()
     printf("\n\n   5. Acknowledgement ");
     printf("\n\n   6. Close your account");
     printf("\n\n   7. EXIT");
-    printf("\n\n\n enter your choice -  ");
-    scanf("%d",&a);
-    switch(a)
+    printf("\n\n\n enter your choice to continue-  ");
+    scanf("%d",&d);
+    switch(d)
     {
         case 1: input();
                 printf("\n\n\t\tprocessing .....");
@@ -552,13 +552,13 @@ int main()
 
         case 6:  c=delete_();
                  printf("\n\n\t\tdeleting your account .....");
-                 printf("\n\n\tYOUR ACCOUNT DELETED SUCCESSFULLY  ");
+                 printf("\n\n\tYOUR ACCOUNT DELETED SUCCESSFULLY. THANK YOU FOR USING OUR SERVICES ");
                  getch();
                  break;
 
         case 7 : exit(0);
 
-        default : printf("enter valid choice..");
+        default : printf("enter valid choice to continue..");
                   goto y;
     }
     }
